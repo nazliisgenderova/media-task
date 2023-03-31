@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+p{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.head{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image:url(https://www.culinaryhill.com/wp-content/uploads/2022/08/September-Produce-Guide-Culinary-Hill.jpg);
+    height: 80vh;
+}
+.container{
+    width: 70%;
+    margin: 0 15%;
+}
+.container b{
+    font-size: 30px;
+    color: white;
+}
+nav ul.menu li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    padding: 25px;
+}
+nav ul.menu li a{
+    font-size: 18px;
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color:white;
+}
+.text-black{
+    color: black;
+}
+.mt-100{
+    padding-top: 100px;
+}
+.my-25{
+    margin: 25px 0;
+}
+.slogan b{
+    font-size: 40px;
+    display: block;
+    text-transform: capitalize;
+}
+.slogan p{
+    font-size: 20px;
+    display: block;
+    text-transform: uppercase;
+}
+.btn-blue{
+    background-color: rgb(4, 97, 246);
+    font-weight: 100;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px 50px;
+}
+.btn-green{
+    background-color: rgb(4, 246, 194);
+    font-weight: 100;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px 50px;
+}
+.umumi{
+    display: flex;
+    margin-top: 60px;
+}
+.icon{
+    font-size: 50px;
+}
+.text{
+    font-size: 12px;
+}
+
+.btn-menu{
+    display: none;
+}
+@media (max-width:450px) {
+    .container{
+        width: 100%;
+        margin: 0;
+    }
+    .navbar h1{
+        font-size: 20px;
+    }
+}
+@media (max-width:1240px) {
+    .umumi{
+        width: 100%;
+        display: block;
+    }
+}
+@media (max-width:1420px){
+     .slogan{
+        display: block;
+     }    
+}
+@media (max-width:1000px) {
+ul.menu{
+    display: none;
+}
+
+    .btn-menu{
+        display: flex;
+    }
+    .btn-menu span{
+        display: none;
+    }
+    .btn-menu svg{
+        width: 25px;
+    }
+}
+@media (max-width:1420px){
+    .head{
+        height: 100vh;
+        background-size: 200%;
+    }
+
+}
